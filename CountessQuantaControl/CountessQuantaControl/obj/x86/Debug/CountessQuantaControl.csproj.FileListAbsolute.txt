@@ -1,0 +1,16 @@
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\bin\Debug\CountessQuantaControl.exe
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\bin\Debug\CountessQuantaControl.pdb
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl.csprojResolveAssemblyReference.cache
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\ControlWindow.baml
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\RobotDisplay.baml
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\SkeletonViewer.baml
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\ControlWindow.g.cs
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\RobotDisplay.g.cs
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\SkeletonViewer.g.cs
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\App.g.cs
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl_MarkupCompile.cache
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl.g.resources
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl.Properties.Resources.resources
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl.csproj.GenerateResource.Cache
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl.exe
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl.pdb
