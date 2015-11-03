@@ -58,7 +58,7 @@
 	<Frame Speech="Right Hand"/>
   </Sequence>
   <Sequence Name="Hello">
-    <Frame Name="Example Frame 1" TimeToDestination="1" Speech="Hey">
+    <Frame Name="Example Frame 1" TimeToDestination="1" Speech="Hey" PptIndex="1">
       <ServoPosition Index="15" Position="1354" />
     </Frame>
     <Frame Name="Example Frame 2" TimeToDestination="0.5">
@@ -170,7 +170,7 @@
     </Frame>
   </Sequence>
   <Sequence Name="PLAYMUSIC">
-    <Frame Name="Example Frame" TimeToDestination="0.5" Speech="Let me play some music">
+    <Frame Name="Example Frame" TimeToDestination="0.5" Speech="Let me play some music" PptIndex="3">
       <ServoPosition Index="0" Position="1267" />
       <ServoPosition Index="1" Position="1730" />
       <ServoPosition Index="2" Position="884" />
@@ -334,7 +334,7 @@
     </Frame>
   </Sequence>
 <Sequence Name="NeckRotate">
-    <Frame Name="Example Frame" TimeToDestination="2" Speech="I am rotating my neck">
+    <Frame Name="Example Frame" TimeToDestination="2" Speech="I am rotating my neck" PptIndex="4">
       <ServoPosition Index="9" Position="50" />
     </Frame>
     <Frame Name="Example Frame" TimeToDestination="2">
@@ -348,7 +348,7 @@
     </Frame>
   </Sequence>
   <Sequence Name="ArmRaise">
-    <Frame Name="Example Frame" TimeToDestination="2" Speech="You are walking close to me">
+    <Frame Name="Example Frame" TimeToDestination="2" Speech="You are walking close to me" PptIndex="2">
       <ServoPosition Index="3" Position="50" />
     </Frame>
     <Frame Name="Example Frame" TimeToDestination="2">

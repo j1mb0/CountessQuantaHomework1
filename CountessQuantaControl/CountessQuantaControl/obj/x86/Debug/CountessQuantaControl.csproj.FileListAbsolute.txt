@@ -14,3 +14,4 @@ C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\Coun
 C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl.csproj.GenerateResource.Cache
 C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl.exe
 C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl.pdb
+C:\Users\luna\Documents\ECE47\9.CountessQuantaControl\CountessQuantaControl\CountessQuantaControl\obj\x86\Debug\CountessQuantaControl.csproj.ResolveComReference.cache

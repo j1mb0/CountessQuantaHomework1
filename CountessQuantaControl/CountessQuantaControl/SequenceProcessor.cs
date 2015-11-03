@@ -17,12 +17,14 @@ namespace CountessQuantaControl
 {
     public class SequenceProcessor
     {
+
         ServoManager servoManager;
         SequenceList sequenceList;
         Object sequenceLock = new Object();
         bool sequenceIsRunning = false;
         Sequence runningSequence;
         SpeechSynthesizer speechSynthesizer = new SpeechSynthesizer();
+        PptController pptController = new PptController();
 
         public SequenceProcessor(ServoManager servoManager, string sequenceFileName)
         {
@@ -88,6 +90,16 @@ namespace CountessQuantaControl
                 if (frame.speechString != null)
                 {
                     speechSynthesizer.SpeakAsync(frame.speechString);
+                }
+
+                // Go to the relevant PPT Slide 
+                // perform moves in this and subsequent frames.
+                if (frame.pptIndex != null)
+                {
+                    if (pptController.IsPptActive())
+                    {
+                        pptController.GoToSlide(frame.pptIndex);
+                    }
                 }
 
                 // Wait for the specified amount of time.

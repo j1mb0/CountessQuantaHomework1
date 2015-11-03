@@ -17,6 +17,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Speech.Synthesis;
+using Microsoft.Office.Core;
+using PowerPoint = Microsoft.Office.Interop.PowerPoint;
+using Graph = Microsoft.Office.Interop.Graph;
+using System.Runtime.InteropServices;
 
 
 namespace CountessQuantaControl
@@ -29,7 +33,11 @@ namespace CountessQuantaControl
     {
         const string sequenceFileName = "SequenceFile.xml";
         const string servoConfigFileName = "ServoConfig.xml";
+        // File path to PPT
+        const string PptFileName = "CountessQuantaState.pptx";
 
+        // Ppt Related Variables
+        PowerPoint.Application pptApplication;
         ServoManager servoManager;
         SequenceProcessor sequenceProcessor;
         KinectManager kinectManager;
@@ -54,6 +62,8 @@ namespace CountessQuantaControl
             logUpdateTimer.Tick += new EventHandler(logUpdateTimer_Tick);
             logUpdateTimer.Interval = new TimeSpan(0, 0, 0, 0, 500);
             logUpdateTimer.Start();
+ 
+            
         }
 
         private void UpdateConnectedTextblock(bool connected, TextBlock textBlock)

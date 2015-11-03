@@ -54,6 +54,9 @@ namespace CountessQuantaControl
         [XmlAttribute("Delay")]
         public double delay;
 
+        [XmlAttribute("PptIndex")]
+        public int pptIndex;
+
         public Frame()
         {
 
@@ -137,7 +140,7 @@ namespace CountessQuantaControl
             WriteFileStream.Close();
         }
 
-        public void LoadFromXml(string fileName) l
+        public void LoadFromXml(string fileName)
         {
             XmlSerializer SerializerObj = new XmlSerializer(typeof(List<Sequence>));
             FileStream ReadFileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read);
